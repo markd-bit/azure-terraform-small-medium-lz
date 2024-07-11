@@ -1,12 +1,12 @@
 variable "location" {
   type    = string
   description = "azure resources location"
-  default = "eastus"
+  default = "uksouth"
 }
 variable "product_name" {
   type = string
   nullable = false
-  description = "(Mandatory) Project/Application name. e.g skynet \nThis will be used as prefix for all resources created."
+  description = "h21test"
   
 }
 variable "vnets" {
